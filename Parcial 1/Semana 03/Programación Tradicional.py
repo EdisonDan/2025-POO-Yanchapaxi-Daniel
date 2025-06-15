@@ -1,26 +1,19 @@
-class Semana:
-    def __init__(self, datos_dia):
-        self.datos_dia = datos_dia  # lista de diccionarios con "day" y "temp"
+def calcular_promedio_temperaturas(datos):
 
-    def promedio(self):
-        return sum(d["temp"] for d in self.datos_dia) / len(self.datos_dia)
+    promedios = {}
 
-
-class Ciudad:
-    def __init__(self, nombre):
-        self.nombre = nombre
-        self.semanas = []
-
-    def agregar_semana(self, semana):
-        self.semanas.append(semana)
-
-    def promedio_semanal(self):
-        total_temps = sum(semana.promedio() for semana in self.semanas)
-        return total_temps / len(self.semanas)
+    for ciudad, semanas in datos.items():
+        suma_temperaturas = sum(dia["temp"] for semana in semanas for dia in semana)
+        total_dias = sum(len(semana) for semana in semanas)
+        promedio = suma_temperaturas / total_dias
+        promedios[ciudad] = f"{promedio:.2f}°C"
+    print()
+    return promedios
 
 
-# Datos de entrada igual al funcional
-datos = {
+# Ejemplo de uso con datos
+ciudades = ["Quito", "Guayaquil", "Cuenca"]
+temperaturas = {
     "Quito": [
         [  # Semana 1
             {"day": "Lunes", "temp": 14},
@@ -136,16 +129,6 @@ datos = {
         ],
     ]
 }
-
-# Crear objetos Ciudad y calcular promedios
-ciudades = []
-for nombre, semanas in datos.items():
-    ciudad = Ciudad(nombre)
-    for semana in semanas:
-        ciudad.agregar_semana(Semana(semana))
-    ciudades.append(ciudad)
-
-# Mostrar resultados
-print("\nPromedios semanales:")
-for ciudad in ciudades:
-    print(f"  {ciudad.nombre}: {ciudad.promedio_semanal():.2f}°C")
+# Llamada a la función y muestra de resultados
+resultado = calcular_promedio_temperaturas(temperaturas)
+print(resultado)
