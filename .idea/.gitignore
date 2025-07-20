@@ -1,0 +1,79 @@
+# -*- coding: utf-8 -*-
+"""
+Solución POO para calcular el promedio semanal de temperatura por ciudad.
+Autor: <tu nombre>
+"""
+
+from __future__ import annotations   # habilita anotaciones “forward”
+from typing import List, Dict
+
+
+class SemanaClimatica:
+    """Representa una semana de temperaturas (7 días)."""
+
+    def __init__(self, temperaturas: List[int]) -> None:
+        if len(temperaturas) != 7:
+            raise ValueError("Una semana debe tener 7 valores.")
+        self._temperaturas = temperaturas  # atributo encapsulado
+
+    @property
+    def promedio(self) -> float:
+        return sum(self._temperaturas) / 7
+
+
+class CiudadClimatica:
+    """Agrupa todas las semanas de una ciudad y calcula su promedio global."""
+
+    def __init__(self, nombre: str) -> None:
+        self.nombre = nombre
+        self._semanas: List[SemanaClimatica] = []
+
+    # -------------- Encapsulamiento -----------------
+    def agregar_semana(self, semana: SemanaClimatica) -> None:
+        self._semanas.append(semana)
+
+    @property
+    def promedio(self) -> float:
+        total = sum(sem.promedio for sem in self._semanas)
+        return total / len(self._semanas)
+
+    # -------------- Polimorfismo --------------------
+    def __str__(self) -> str:            # se comporta como str
+        return f"{self.nombre}: {self.promedio:.2f} °C"
+
+    # -------------- Herencia (demo) -----------------
+class CiudadFahrenheit(CiudadClimatica):
+    """
+    Variante que admite temperaturas en °F y las convierte a °C
+    al momento de almacenarlas. Demuestra herencia y sobreescritura.
+    """
+
+    @staticmethod
+    def _f_to_c(f: float) -> float:      # método “helper”
+        return (f - 32) * 5 / 9
+
+    def agregar_semana(self, semana: SemanaClimatica) -> None:
+        # Convertir cada temperatura antes de delegar a la superclase
+        celsius = [self._f_to_c(t) for t in semana._temperaturas]
+        super().agregar_semana(SemanaClimatica(celsius))
+
+
+# ------------------------------ Función de carga rápida ------------------------------
+def cargar_datos_demo(datos: Dict[str, List[List[int]]]) -> List[CiudadClimatica]:
+    """Transforma el diccionario de ejemplo en objetos CiudadClimatica."""
+    ciudades: List[CiudadClimatica] = []
+    for nombre, semanas in datos.items():
+        ciudad = CiudadClimatica(nombre)
+        for temps in semanas:
+            ciudad.agregar_semana(SemanaClimatica(temps))
+        ciudades.append(ciudad)
+    return ciudades
+
+
+if __name__ == "__main__":
+    from datos_ejemplo import TEMPERATURAS  # mismo dataset que antes
+    ciudades = cargar_datos_demo(TEMPERATURAS)
+
+    print("\nPromedios semanales:")
+    for ciudad in ciudades:          # polimorfismo: usa __str__()
+        print("  " + str(ciudad))

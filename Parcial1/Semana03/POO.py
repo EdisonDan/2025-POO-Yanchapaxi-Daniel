@@ -1,10 +1,10 @@
+
 class Semana:
     def __init__(self, datos_dia):
         self.datos_dia = datos_dia  # lista de diccionarios con "day" y "temp"
 
     def promedio(self):
         return sum(d["temp"] for d in self.datos_dia) / len(self.datos_dia)
-
 
 class Ciudad:
     def __init__(self, nombre):

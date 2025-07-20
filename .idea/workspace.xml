@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e4a4509d-21fe-4463-8037-ae1b49f3c4f6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Dashboard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcial 1/Semana 02/Semana 2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Parcial1/Semana02/Semana2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcial 1/Semana 03/POO.py" beforeDir="false" afterPath="$PROJECT_DIR$/Parcial1/Semana03/POO.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcial 1/Semana 03/Programación Tradicional.py" beforeDir="false" afterPath="$PROJECT_DIR$/Parcial1/Semana03/ProgramaciónTradicional.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcial 1/Semana 04/EjemplosMundoReal POO.py" beforeDir="false" afterPath="$PROJECT_DIR$/Parcial1/Semana04/EjemplosMundoRealPOO.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unidad 2/Semana 5/Tipos de datos, Identificadores. Implementación.py" beforeDir="false" afterPath="$PROJECT_DIR$/Unidad_2/Semana_5/Tipos_de_datos_Identificadores_Implementación.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unidad 2/Semana 6/Clases, objetos, herencia, encapsulamiento y polimorfismo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Unidad_2/Semana 6/Clases, objetos, herencia, encapsulamiento y polimorfismo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unidad 2/Semana 7/Implementación de Constructores y Destructores en Python.py" beforeDir="false" afterPath="$PROJECT_DIR$/Unidad_2/Semana 7/Implementación de Constructores y Destructores en Python.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../Notes_Programaci-n-Orientada-a-Objetos\exportToHTML" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;EdisonDan&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/EdisonDan/2025-POO-Yanchapaxi-Daniel.git&quot;,
+    &quot;accountId&quot;: &quot;f540fbfc-0d4b-485c-b9eb-cf491a6d5387&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2y8FTUctY246yS0vM3smXQYWimH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.Dashboard.executor": "Run",
+    "Python.Implementación de Constructores y Destructores en Python.executor": "Run",
+    "Python.POO.executor": "Run",
+    "Python.Programación Tradicional.executor": "Run",
+    "Python.Semana 2.executor": "Run",
+    "Python.Tipos de datos, Identificadores. Implementación.executor": "Run",
+    "Python.semana 2.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/garzo/PycharmProjects/Notes_Programaci-n-Orientada-a-Objetos",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "settings.sync",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\garzo\PycharmProjects\Notes_Programaci-n-Orientada-a-Objetos" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-PY-251.25410.159" />
+        <option value="bundled-python-sdk-e0ed3721d81e-36ea0e71a18c-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.25410.159" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e4a4509d-21fe-4463-8037-ae1b49f3c4f6" name="Changes" comment="" />
+      <created>1749208300623</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1749208300623</updated>
+      <workItem from="1749208301671" duration="1055000" />
+      <workItem from="1749209376197" duration="279000" />
+      <workItem from="1749209994938" duration="24000" />
+      <workItem from="1749210027519" duration="185000" />
+      <workItem from="1749210513476" duration="487000" />
+      <workItem from="1749950682442" duration="2730000" />
+      <workItem from="1751141133761" duration="3322000" />
+      <workItem from="1752421287577" duration="1471000" />
+      <workItem from="1752731948446" duration="612000" />
+      <workItem from="1752765112883" duration="278000" />
+      <workItem from="1752984042474" duration="2310000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/_gitignore$Semana_2.coverage" NAME="Semana 2 Coverage Results" MODIFIED="1752984718147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Parcial 1/Semana 02" />
+    <SUITE FILE_PATH="coverage/Notes_Programaci_n_Orientada_a_Objetos$Semana_2.coverage" NAME="Semana 2 Coverage Results" MODIFIED="1749208450615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/_gitignore$POO.coverage" NAME="POO Coverage Results" MODIFIED="1749960053667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Parcial 1/Semana 03" />
+    <SUITE FILE_PATH="coverage/_gitignore$semana_2.coverage" NAME="semana 2 Coverage Results" MODIFIED="1749959258184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Parcial 1/Semana 03" />
+    <SUITE FILE_PATH="coverage/_gitignore$Programación_Tradicional.coverage" NAME="Programación Tradicional Coverage Results" MODIFIED="1749960047447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Parcial 1/Semana 03" />
+    <SUITE FILE_PATH="coverage/_gitignore$Implementación_de_Constructores_y_Destructores_en_Python.coverage" NAME="Implementación de Constructores y Destructores en Python Coverage Results" MODIFIED="1752421639203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Unidad 2/Semana 7" />
+    <SUITE FILE_PATH="coverage/_gitignore$Dashboard.coverage" NAME="Dashboard Coverage Results" MODIFIED="1752986325340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/_gitignore$Tipos_de_datos__Identificadores__Implementación.coverage" NAME="Tipos de datos, Identificadores. Implementación Coverage Results" MODIFIED="1751145032462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Unidad 2/Semana 5" />
+  </component>
+</project>
