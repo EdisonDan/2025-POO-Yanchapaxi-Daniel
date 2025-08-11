@@ -31,13 +31,13 @@ def mostrar_menu():
     ruta_base = os.path.dirname(__file__)
 
     opciones = {
-        '1': 'Parcial1/Semana02/Semana2.py',
-        '2': 'Parcial1/Semana03/POO.py',
-        '3': 'Parcial1/Semana03/ProgramaciónTradicional.py',
-        '4': 'Parcial1/Semana04/EjemplosMundoRealPOO.py',
-        '5': 'Unidad2/Semana5/TiposDeDatosIdentificadoresImplementacion.py',
-        '6': 'Unidad2/Semana6/ClasesObjetosHerenciaEncapsulamientoPolimorfismo.py',
-        '7': 'Unidad2/Semana7/ImplementacionDeConstructoresYDestructoresEnPython.py',
+        '1': 'Bloque1/Unidad1/Semana02/Semana2.py',
+        '2': 'Bloque1/Unidad1/Semana03/POO.py',
+        '3': 'Bloque1/Unidad1/Semana03/ProgramaciónTradicional.py',
+        '4': 'Bloque1/Unidad1/Semana04/EjemplosMundoRealPOO.py',
+        '5': 'Bloque1/Unidad2/Semana5/TiposDeDatosIdentificadoresImplementacion.py',
+        '6': 'Bloque1/Unidad2/Semana6/ClasesObjetosHerenciaEncapsulamientoPolimorfismo.py',
+        '7': 'Bloque1/Unidad2/Semana7/ImplementacionDeConstructoresYDestructoresEnPython.py',
     }
 
     while True:

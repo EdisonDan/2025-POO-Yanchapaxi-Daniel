@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4a4509d-21fe-4463-8037-ae1b49f3c4f6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Dashboard.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Parcial 1/Semana 02/Semana 2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Parcial1/Semana02/Semana2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Parcial 1/Semana 03/POO.py" beforeDir="false" afterPath="$PROJECT_DIR$/Parcial1/Semana03/POO.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Parcial 1/Semana 03/Programación Tradicional.py" beforeDir="false" afterPath="$PROJECT_DIR$/Parcial1/Semana03/ProgramaciónTradicional.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Parcial 1/Semana 04/EjemplosMundoReal POO.py" beforeDir="false" afterPath="$PROJECT_DIR$/Parcial1/Semana04/EjemplosMundoRealPOO.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unidad 2/Semana 5/Tipos de datos, Identificadores. Implementación.py" beforeDir="false" afterPath="$PROJECT_DIR$/Unidad_2/Semana_5/Tipos_de_datos_Identificadores_Implementación.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unidad 2/Semana 6/Clases, objetos, herencia, encapsulamiento y polimorfismo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Unidad_2/Semana 6/Clases, objetos, herencia, encapsulamiento y polimorfismo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unidad 2/Semana 7/Implementación de Constructores y Destructores en Python.py" beforeDir="false" afterPath="$PROJECT_DIR$/Unidad_2/Semana 7/Implementación de Constructores y Destructores en Python.py" afterDir="false" />
-    </list>
+    <list default="true" id="e4a4509d-21fe-4463-8037-ae1b49f3c4f6" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,30 +43,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.Dashboard.executor": "Run",
-    "Python.Implementación de Constructores y Destructores en Python.executor": "Run",
-    "Python.POO.executor": "Run",
-    "Python.Programación Tradicional.executor": "Run",
-    "Python.Semana 2.executor": "Run",
-    "Python.Tipos de datos, Identificadores. Implementación.executor": "Run",
-    "Python.semana 2.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/garzo/PycharmProjects/Notes_Programaci-n-Orientada-a-Objetos",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "settings.sync",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.Dashboard.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Implementación de Constructores y Destructores en Python.executor&quot;: &quot;Run&quot;,
+    &quot;Python.POO.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Programación Tradicional.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Semana 2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Tipos de datos, Identificadores. Implementación.executor&quot;: &quot;Run&quot;,
+    &quot;Python.semana 2.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/garzo/PycharmProjects/Notes_Programaci-n-Orientada-a-Objetos&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\garzo\PycharmProjects\Notes_Programaci-n-Orientada-a-Objetos" />
@@ -107,6 +98,7 @@
       <workItem from="1752731948446" duration="612000" />
       <workItem from="1752765112883" duration="278000" />
       <workItem from="1752984042474" duration="2310000" />
+      <workItem from="1754942906227" duration="260000" />
     </task>
     <servers />
   </component>
@@ -131,7 +123,7 @@
     <SUITE FILE_PATH="coverage/_gitignore$semana_2.coverage" NAME="semana 2 Coverage Results" MODIFIED="1749959258184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Parcial 1/Semana 03" />
     <SUITE FILE_PATH="coverage/_gitignore$Programación_Tradicional.coverage" NAME="Programación Tradicional Coverage Results" MODIFIED="1749960047447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Parcial 1/Semana 03" />
     <SUITE FILE_PATH="coverage/_gitignore$Implementación_de_Constructores_y_Destructores_en_Python.coverage" NAME="Implementación de Constructores y Destructores en Python Coverage Results" MODIFIED="1752421639203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Unidad 2/Semana 7" />
-    <SUITE FILE_PATH="coverage/_gitignore$Dashboard.coverage" NAME="Dashboard Coverage Results" MODIFIED="1752986325340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/_gitignore$Dashboard.coverage" NAME="Dashboard Coverage Results" MODIFIED="1754942993402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/_gitignore$Tipos_de_datos__Identificadores__Implementación.coverage" NAME="Tipos de datos, Identificadores. Implementación Coverage Results" MODIFIED="1751145032462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Unidad 2/Semana 5" />
   </component>
 </project>
