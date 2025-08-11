@@ -1,6 +1,6 @@
 from ast import Break
 
-
+# Clase Producto
 class Producto:
     def __init__(self, id, nombre, cantidad, precio):
         self.id = id
@@ -8,6 +8,7 @@ class Producto:
         self.cantidad = cantidad
         self.precio = precio
 
+# Getters
     def get_id(self):
         return self.id
     def get_nombre(self):
@@ -17,6 +18,7 @@ class Producto:
     def get_precio(self):
         return self.precio
 
+ # Setters
     def set_nombre(self, nombre):
         self.nombre = nombre
     def set_cantidad(self, cantidad):
@@ -24,9 +26,11 @@ class Producto:
     def set_precio(self, precio):
         self.precio = precio
 
+ # Representación del producto
     def __str__(self):
         return f"ID: {self.id}, Nombre: {self.nombre}, Cantidad: {self.cantidad}, Precio: {self.precio}"
-        
+
+# Clase Inventario
 class Inventario:
     def __init__(self):
         self.productos = []
@@ -76,7 +80,7 @@ class Inventario:
         for p in self.productos:
             print(p)
 
-
+# Función principal (Menú)
 def menu():
     inventario = Inventario()
 
@@ -96,7 +100,7 @@ def menu():
             while True:
                 if inventario.buscar_producto_por_id(id) is not None:
                     print("El ID del producto ya existe.")
-                    menu()
+                    id = input("Ingrese otro ID: ")
                 else:
                     break
             nombre = input("Nombre: ")
@@ -137,6 +141,5 @@ def menu():
             print(" Opción inválida. Intente de nuevo.")
 
 # Ejecutar el programa
-
 if __name__ == "__main__":
     menu()
