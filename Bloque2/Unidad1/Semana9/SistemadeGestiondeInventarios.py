@@ -57,13 +57,14 @@ class Inventario:
                     producto.set_precio(nuevo_precio)
                 print("Producto actualizado exitosamente.")
                 return
-            print("Producto no encontrado.")\
+            print("Producto no encontrado.")
 
     def buscar_producto_por_nombre(self, nombre):
         for producto in self.productos:
             if producto.get_nombre() == nombre:
                 return producto
-        return None
+            return None
+        print("Producto no encontrado.")
 
     def buscar_producto_por_id(self, id):
         for producto in self.productos:
@@ -118,11 +119,10 @@ def menu():
 
         elif opcion == "4":
             nombre = input("Nombre a buscar: ")
-            encontrados = inventario.buscar_producto(nombre)
-            if encontrados:
-                print("Productos encontrados:")
-                for p in encontrados:
-                    print(p)
+            producto = inventario.buscar_producto_por_nombre(nombre)
+            if producto is not None:
+                print(producto)
+
             else:
                 print(" No se encontraron productos.")
 
@@ -136,9 +136,7 @@ def menu():
         else:
             print(" Opción inválida. Intente de nuevo.")
 
-
-# =========================
 # Ejecutar el programa
-# =========================
+
 if __name__ == "__main__":
     menu()
