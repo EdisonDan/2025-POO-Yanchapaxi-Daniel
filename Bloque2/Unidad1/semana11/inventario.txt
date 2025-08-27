@@ -1,0 +1,3 @@
+ID=001=Nombre=Teclado=Cantidad=22=Precio=10.5
+ID=002=Nombre=Mause=Cantidad=34=Precio=5.0
+ID=003=Nombre=Monitor=Cantidad=10=Precio=250.75

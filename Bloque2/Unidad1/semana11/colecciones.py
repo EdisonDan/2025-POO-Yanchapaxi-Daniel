@@ -19,6 +19,8 @@ class Producto:
         return self.precio
 
     # Setters
+    def set_id(self, id):
+        self.id = id
     def set_nombre(self, nombre):
         self.nombre = nombre
     def set_cantidad(self, cantidad):
@@ -39,14 +41,14 @@ class Inventario:
     def __init__(self):
         directorio_actual = os.path.dirname(os.path.abspath(__file__))
         self.archivo = os.path.join(directorio_actual, "inventario.txt")
-        self.productos = {}
+        self.productos = dict()
         self.cargar_desde_archivo()
 
     def guardar_en_archivo(self):
         try:
             with open(self.archivo, "w") as f:
                 for producto in self.productos.values():
-                    f.write(f"{producto.id},{producto.nombre},{producto.cantidad},{producto.precio}\n")
+                    f.write(f"ID={producto.id}=Nombre={producto.nombre}=Cantidad={producto.cantidad}=Precio={producto.precio}\n")
         except Exception as e:
             print(f"Error al guardar el inventario en archivo: {e}")
         return self.productos
@@ -58,8 +60,13 @@ class Inventario:
                 return
             with open(self.archivo, "r") as f:
                 for linea in f:
-                    id, nombre, cantidad, precio = linea.strip().split(",")
-                    self.productos[id] = Producto(id, nombre, int(cantidad), float(precio))
+                    partes = linea.strip().split("=")
+                    if len(partes) == 8:  # ID=valor=Nombre=valor=Cantidad=valor=Precio=valor
+                        id = partes[1]
+                        nombre = partes[3]
+                        cantidad = int(partes[5])
+                        precio = float(partes[7])
+                        self.productos[id] = Producto(id, nombre, cantidad, precio)
             print("Inventario cargado desde archivo.")
         except ValueError as e:
             print(f"Error al cargar el inventario desde archivo: {e}")
@@ -131,7 +138,6 @@ class Inventario:
         else:
             print("Operación cancelada.")
 
-
 # Función principal (Menú)
 def menu():
     inventario = Inventario()
@@ -144,7 +150,7 @@ def menu():
         print("4. Buscar producto por ID")
         print("5. Buscar producto por nombre")
         print("6. Mostrar todos los productos")
-        print("7. Eliminar inventario")
+        print("7. Eliminar TODO el inventario")
         print("8. Salir")
 
         opcion = input("Selecciona una opción: ")
