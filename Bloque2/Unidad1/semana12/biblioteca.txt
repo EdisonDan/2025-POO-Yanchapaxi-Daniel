@@ -1,0 +1,2 @@
+ISBN=3=Titulo=3=Autor=3=Categoria=3
+ISBN=1=Titulo=1=Autor=1=Categoria=1
