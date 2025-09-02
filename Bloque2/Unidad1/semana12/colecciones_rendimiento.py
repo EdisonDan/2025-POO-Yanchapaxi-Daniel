@@ -1,8 +1,6 @@
 import os
 
-# =========================
 # Clase Libro
-# =========================
 class Libro:
     def __init__(self, isbn, titulo, autor, categoria):
         self.info = (titulo, autor)  # tupla inmutable
@@ -24,10 +22,7 @@ class Libro:
     def __str__(self):
         return f"ISBN: {self.isbn}, Título: {self.get_titulo()}, Autor: {self.get_autor()}, Categoría: {self.categoria}"
 
-
-# =========================
 # Clase Usuario
-# =========================
 class Usuario:
     def __init__(self, user_id, nombre):
         self.user_id = user_id
@@ -48,9 +43,8 @@ class Usuario:
         return f"Usuario: {self.nombre}, ID: {self.user_id}, Libros prestados: {[libro.get_titulo() for libro in self.libros_prestados]}"
 
 
-# =========================
+
 # Clase Biblioteca
-# =========================
 class Biblioteca:
     def __init__(self):
         directorio = os.path.dirname(os.path.abspath(__file__))
@@ -66,7 +60,7 @@ class Biblioteca:
         self.cargar_usuarios()
         self.cargar_prestamos()
 
-    # ---------- Persistencia de libros ----------
+# Persistencia de libros 
     def guardar_libros(self):
         try:
             with open(self.archivo_libros, "w", encoding="utf-8") as f:
@@ -92,7 +86,7 @@ class Biblioteca:
         except Exception as e:
             print(f"Error al cargar libros: {e}")
 
-    # ---------- Persistencia de usuarios ----------
+# Persistencia de usuarios
     def guardar_usuarios(self):
         try:
             with open(self.archivo_usuarios, "w", encoding="utf-8") as f:
@@ -118,7 +112,7 @@ class Biblioteca:
         except Exception as e:
             print(f"Error al cargar usuarios: {e}")
 
-    # ---------- Persistencia de préstamos ----------
+# Persistencia de préstamos
     def guardar_prestamos(self):
         try:
             with open(self.archivo_prestamos, "w", encoding="utf-8") as f:
@@ -136,7 +130,7 @@ class Biblioteca:
             with open(self.archivo_prestamos, "r", encoding="utf-8") as f:
                 for linea in f:
                     partes = linea.strip().split("=")
-                    if len(partes) == 10:  # UserID=...=ISBN=...=Titulo=...=Autor=...=Categoria=...
+                    if len(partes) == 10:  
                         user_id = partes[1]
                         isbn = partes[3]
                         titulo = partes[5]
@@ -149,7 +143,7 @@ class Biblioteca:
         except Exception as e:
             print(f"Error al cargar préstamos: {e}")
 
-    # ---------- Libros ----------
+# Libros
     def añadir_libro(self, libro: Libro):
         if libro.get_isbn() in self.libros:
             print("El libro ya existe en la biblioteca.")
@@ -181,7 +175,7 @@ class Biblioteca:
         for libro in self.libros.values():
             print(libro)
 
-    # ---------- Usuarios ----------
+# Usuarios
     def registrar_usuario(self, usuario: Usuario):
         if usuario.user_id in self.ids_usuarios:
             print("El ID de usuario ya existe.")
@@ -207,7 +201,7 @@ class Biblioteca:
         for usuario in self.usuarios.values():
             print(usuario)
 
-    # ---------- Préstamos ----------
+# Préstamos
     def prestar_libro(self, user_id, isbn):
         if user_id not in self.usuarios:
             print("Usuario no registrado.")
@@ -248,10 +242,7 @@ class Biblioteca:
             for libro in usuario.libros_prestados:
                 print(libro)
 
-
-# =========================
 # Menú Principal
-# =========================
 def menu():
     biblioteca = Biblioteca()
 
