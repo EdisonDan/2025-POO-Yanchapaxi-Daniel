@@ -1,7 +1,3 @@
-# Mi primera aplicación GUI con Tkinter
-# Tarea de programación - Lista de tareas simple
-# Autor: Estudiante principiante
-
 import tkinter as tk
 from tkinter import messagebox
 
