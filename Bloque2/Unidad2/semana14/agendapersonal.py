@@ -1,4 +1,3 @@
-# Importamos las librerías necesarias
 import tkinter as tk  # Para crear la interfaz gráfica
 from tkinter import ttk  # Para widgets más modernos como TreeView
 from tkinter import messagebox  # Para mostrar mensajes de confirmación
